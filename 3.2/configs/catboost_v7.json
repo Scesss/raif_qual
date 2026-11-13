@@ -1,0 +1,13 @@
+{
+  "dimensions": 24,
+  "embedding_epochs": 8,
+  "fit_fractions": [
+    0.6,
+    0.7,
+    0.8
+  ],
+  "iterations": 350,
+  "full_iterations": 338,
+  "one_hot_max_size": 2048,
+  "seed": 42
+}

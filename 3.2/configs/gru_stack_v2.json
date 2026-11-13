@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "context": 128,
+  "batch_size": 64,
+  "width": 384,
+  "layers": 6,
+  "dropout": 0.15,
+  "local_epochs": 4,
+  "full_epochs": 2,
+  "local_lr": 0.001,
+  "full_lr": 0.0003,
+  "depth": 4,
+  "iterations": 33,
+  "learning_rate": 0.04,
+  "l2_leaf_reg": 10
+}

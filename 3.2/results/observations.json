@@ -1,0 +1,82 @@
+{
+  "selected_experiment": "gru_stack_v2",
+  "selected_filename": "submission_gru_stack_v2.csv",
+  "public_accuracy": 0.41172,
+  "private_accuracy": null,
+  "full_retrain_verified": false,
+  "kaggle_uploads_during_packaging": 0,
+  "validation_notes": [
+    "Local windows differ between early experiments.",
+    "Later temporal check was reused for multiple experiments.",
+    "Local and public accuracy are different measurements.",
+    "calibration_v6 was never submitted to Kaggle."
+  ],
+  "original_neural_training": {
+    "epoch": 4,
+    "group": 0,
+    "steps": 7884,
+    "loss_sum": 0.0,
+    "mass": 0.0,
+    "best_accuracy": 0.4302,
+    "best_epoch": 4,
+    "curve": [
+      {
+        "epoch": 1,
+        "partial": false,
+        "early_stop_accuracy": 0.4146,
+        "original_endpoints_seen": 70000,
+        "train_loss": 1.799707394454409
+      },
+      {
+        "epoch": 2,
+        "partial": false,
+        "early_stop_accuracy": 0.411,
+        "original_endpoints_seen": 70000,
+        "train_loss": 1.6525592428762952
+      },
+      {
+        "epoch": 3,
+        "partial": false,
+        "early_stop_accuracy": 0.4282,
+        "original_endpoints_seen": 70000,
+        "train_loss": 1.6068594239033158
+      },
+      {
+        "epoch": 4,
+        "partial": false,
+        "early_stop_accuracy": 0.4302,
+        "original_endpoints_seen": 70000,
+        "train_loss": 1.568314354260254
+      }
+    ],
+    "finished": true,
+    "deadline_reached": false
+  },
+  "original_full_neural_training": {
+    "epoch": 2,
+    "group": 0,
+    "steps": 5006,
+    "loss_sum": 0.0,
+    "mass": 0.0,
+    "best_accuracy": -1.0,
+    "best_epoch": 2,
+    "curve": [
+      {
+        "epoch": 1,
+        "partial": false,
+        "early_stop_accuracy": null,
+        "original_endpoints_seen": 90000,
+        "train_loss": 1.6040743173327763
+      },
+      {
+        "epoch": 2,
+        "partial": false,
+        "early_stop_accuracy": null,
+        "original_endpoints_seen": 90000,
+        "train_loss": 1.5700524259761315
+      }
+    ],
+    "finished": true,
+    "deadline_reached": false
+  }
+}

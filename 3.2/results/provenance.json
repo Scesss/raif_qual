@@ -1,0 +1,13 @@
+{
+  "task1_notebook_sha256": "2a861ead379e24f793039db249be3ec2633027ab59cd364d09a0e0ec4893c3f4",
+  "task1_notebook_unchanged": true,
+  "data_files_sha256": {
+    "1/trump_truths_dataset.json": "a8fb6a147c00629a98bdc5a713c362fd52ed4abb1938db0c20d18594a1ab3721",
+    "2/tweets_coronavirus_new.csv": "d0aa99068cc38e8165978fbe9af3ce8d5d3b2e96cdb96cec5e51d37c2213f224"
+  },
+  "reused_feature_source_sha256": {
+    "src/item2vec.py": "b16f71b318586c20f38730e73a3d9aa49066dba79a4c5b042c374cbca8cfdbef",
+    "src/action_context.py": "7600618105857cc6ebfd6c0f6f04050d94dc3d4ae73d856d4df5cd2011a4c15c",
+    "src/context_model.py": "15af48cde53a72c30938cc4e359a4b1f8efcfc73308cf54ca90967fa6cf32146"
+  }
+}

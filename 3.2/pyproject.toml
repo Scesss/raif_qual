@@ -1,0 +1,14 @@
+[project]
+name = "raif-next-click"
+version = "1.0.0"
+description = "Raiffeisen qualification: next-click prediction"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.15.0", "numpy==2.5.4", "pandas==2.3.3", "pyarrow==24.0.0",
+    "scipy==1.18.1", "scikit-learn==1.9.1", "joblib==1.6.0",
+    "threadpoolctl==3.8.0", "catboost==1.2.10", "gensim==4.4.0", "ipykernel",
+]
+[tool.uv]
+package = false
+[tool.uv.sources]
+gensim = { git = "https://github.com/piskvorky/gensim", rev = "ecf22c266f3b8930610114c149d8991ed14e2a16" }

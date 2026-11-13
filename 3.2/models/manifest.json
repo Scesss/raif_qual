@@ -1,0 +1,63 @@
+{
+  "format_version": 1,
+  "experiment": "gru_stack_v2",
+  "public_accuracy": 0.41172,
+  "public_accuracy_source": "Kaggle screenshot supplied by the participant",
+  "private_accuracy": null,
+  "classes": [
+    3,
+    4,
+    6,
+    8,
+    11,
+    12,
+    13,
+    18,
+    20,
+    21,
+    25,
+    27,
+    33,
+    35,
+    37,
+    38,
+    41,
+    42,
+    43,
+    46,
+    48,
+    49,
+    53,
+    55,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    67,
+    68
+  ],
+  "context": 128,
+  "v7_temperature": 1.1661732902077266,
+  "input_sha256": {
+    "train.parquet": "e23da11fbd067a512448ac2c95929dceb368dfd0b36d941071588b23527c50dd",
+    "test.parquet": "7ee30224a75892d458ed4ce539e4c34445b192aecdd14b9ce034bf4e719952d5",
+    "event_dictionary.parquet": "c776e0ed82c89bd7388c910d95b2bb142b3a8af3c71b62219d7a7e0a63ada9b9",
+    "sample_submission.csv": "6409fc91d1965883f23cbe8ee3b1c6e33533f33cf679cf37871b521bb0731d16"
+  },
+  "files_sha256": {
+    "gru.pt": "d496ea1e3883ecf58c979c540c9816dbc66f2e679507c8f3fa33bbc824dee651",
+    "v7.joblib": "029e9383a25034383326be22d2ff7cf9995fea335f4a81308e3231505527e293",
+    "stack.cbm": "243a154d55984dc5aed1032989cd9fe4374f17e0acfb064f0dd95a9ca9e81d03"
+  },
+  "reference_csv": "../results/submission_v2.csv",
+  "reference_csv_sha256": "39c46caa511318a522eb3283b08f06b906db58e6762e7cf090e50077d1f98d56",
+  "full_retrain_verified": false,
+  "original_training": {
+    "backend": "mps",
+    "seed": 42,
+    "local_epochs": 4,
+    "full_epochs": 2
+  }
+}

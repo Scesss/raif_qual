@@ -1,0 +1,18 @@
+{
+  "base_experiment": "gru_stack_v2",
+  "interest_depth": 3,
+  "interest_iterations": 34,
+  "learning_rate": 0.04,
+  "l2_leaf_reg": 10,
+  "bias_penalties": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "bias_strengths": [
+    0.5,
+    1.0
+  ],
+  "selection": "calibration accuracy; fewer changes wins ties",
+  "kaggle_submitted": false
+}

@@ -1,0 +1,11 @@
+{
+  "feature_set": "baseline",
+  "max_events": 512,
+  "max_features": 60000,
+  "min_df": 3,
+  "C": 4.0,
+  "max_iter": 250,
+  "tol": 0.001,
+  "validation_size": 0.2,
+  "seed": 42
+}

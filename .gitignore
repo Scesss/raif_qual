@@ -1,0 +1,15 @@
+README*
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+!.env.example
+3.2/data/
+3.2/cache/
+3.2/outputs/
+*.log
+*.tmp
+*.resume.pt

@@ -1,0 +1,7 @@
+# Preserve notebook, dataset, model and reference-CSV bytes on every checkout.
+* -text
+*.py text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+*.in text eol=lf
+*.txt text eol=lf

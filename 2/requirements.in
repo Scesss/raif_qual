@@ -1,0 +1,7 @@
+pandas==2.3.3
+mistralai==3.7.0
+tqdm
+scikit-learn==1.9.1
+tenacity
+tabulate
+ipykernel

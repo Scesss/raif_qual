@@ -1,0 +1,7 @@
+{
+  "dimensions": 24,
+  "epochs": 8,
+  "iterations": 350,
+  "validation_fraction": 0.2,
+  "seed": 42
+}
