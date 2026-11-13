@@ -5,3 +5,7 @@
 *.lock text eol=lf
 *.in text eol=lf
 *.txt text eol=lf
+*.json whitespace=cr-at-eol
+*.csv whitespace=cr-at-eol
+# Assignment input text is kept verbatim, including whitespace in raw tweets.
+2/tweets_coronavirus_new.csv -whitespace

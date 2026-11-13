@@ -1,0 +1,25 @@
+{
+  "task1_notebook_unchanged": true,
+  "task1_dataset_rows": 5159,
+  "task1_cells_parse": true,
+  "task1_dependencies_import": true,
+  "task2_offline_tests_passed": 3,
+  "task2_external_api_calls": 0,
+  "task3_unit_tests_passed": 10,
+  "all_five_training_recipes_dry_run": true,
+  "full_retrain_verified": false,
+  "training_executed_during_packaging": false,
+  "selected_csv_sha256": "39c46caa511318a522eb3283b08f06b906db58e6762e7cf090e50077d1f98d56",
+  "original_data_and_models_preserved": true,
+  "readmes_excluded": true,
+  "clean_clone": {
+    "passed": true,
+    "dependencies_installed_from_lock": true,
+    "unit_tests_passed": 10,
+    "prediction_replayed_from_raw_test": true,
+    "reference_rows": 12359,
+    "exact_csv_match": true,
+    "device": "mps"
+  },
+  "verified_at_utc": "2026-11-13T16:47:41.570124+00:00"
+}
