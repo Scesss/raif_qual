@@ -1,0 +1,13 @@
+{
+  "number": 1,
+  "title": "ДЗ 1",
+  "due_at": "2026-09-14 23:59",
+  "classroom_url": "https://classroom.google.com/",
+  "topic": "Тема",
+  "statement_path": "data/materials/hw-01/statement/statement.pdf",
+  "solution_tex_path": "",
+  "solution_pdf_path": "",
+  "reference_solution_path": "",
+  "lecture_paths": ["data/materials/hw-01/lectures/lecture.pdf"],
+  "import_path": ""
+}

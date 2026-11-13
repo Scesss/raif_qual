@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GradeAI · Проверка ДЗ</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/gradeai-mark.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <header>
+      <div>
+        <p class="eyebrow">AI-помощник преподавателя</p>
+        <h1 class="gradeai-heading"><img src="/static/gradeai-mark.svg" alt="">Grade<span>AI</span></h1>
+      </div>
+      <div class="safety">Не связано с ведомостью или Classroom</div>
+    </header>
+    <main>
+      <nav aria-label="Разделы">
+        <button data-view="overview" class="active">Обзор</button>
+        <button data-view="students">Студенты</button>
+        <button data-view="homeworks">ДЗ</button>
+        <button data-view="reviews">Работы</button>
+        <button data-view="agent">Агент</button>
+        <button data-view="export">Экспорт</button>
+      </nav>
+      <section id="notice" aria-live="polite"></section>
+      <section id="app" aria-live="polite"></section>
+    </main>
+    <dialog id="modal"><div id="modal-content"></div></dialog>
+    <script src="/static/app.js"></script>
+    <script src="/static/agent-ui.js"></script>
+  </body>
+</html>
